@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>BLACKBIRD Viagens</title>
+	<style type="text/css">
+		BODY{
+			font-family: verdana;
+		}
+		.btn{
+			margin-left: 60px;
+			margin-right: 5px;
+			font-size: 16px;
+			text-transform: uppercase;
+			font-weight: 800;
+			border: none;
+			padding: 5px;
+			cursor: pointer;
+			display: inline-block;
+			text-decoration: none;
+		}
+		.btn-yellow{
+			background: #C8C800;
+			box-shadow: 0 5px 0 #FFC832;
+		}
+		.btn-yellow:hover{
+			background: #FFC832;
+			box-shadow: 0 5px 0 #DCAA00;
+		}
+		.btn-yellow:active{
+			position: relative;
+			top: 5px;
+			box-shadow: none;
+		}
+	</style>
+</head>
+<body bgcolor="white">
+<font color="black">
+	<img src="https://i1.wp.com/amiebatalibasi.com/wp-content/uploads/2015/04/cropped-bb_one_logo_photoshop.jpg?fit=240%2C240" style="width: 150px; height: 150px">
+	 <br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<table border="2" style="text-align:left; margin: auto; border-color: black; background-color: #C8C800">
+	<tr>
+	<th>
+		<label style="font-size: 25px; margin: 5px">Passagens Aéreas</label>
+	</th>
+	</tr>
+	</table>
+	<br>
+	<br>
+	<table border="10" style="text-align:left; margin: auto; border-color: black">
+	<tr>
+	<th>
+		<input type="radio" name="tipopassagem" value="idaevolta" style="margin-left: 10px; margin-top: 10px">Ida e Volta
+		<input type="radio" name="tipopassagem" value="apenasida" style="margin-left: 15px;">Apenas Ida
+		<br>
+		<br>
+		<label style="display: inline-block; font-size: 20px; text-transform: uppercase; margin-left: 10px;">Origem</label>
+		<label style="display: inline-block; font-size: 20px; text-transform: uppercase; margin-left: 180px;">Destino</label>
+		<label style="display: inline-block; font-size: 20px; text-transform: uppercase; margin-left: 173px;">Data</label><br>
+			<input type="text" style="padding: 10px; margin-left: 10px; margin-bottom: 10px" placeholder="Insira sua cidade de origem">
+			<input type="text" style="margin-left: 82px; padding: 10px" placeholder="Insira sua cidade de destino">
+			<input type="date" name="dataida" min="2019-06-13" style="margin-left: 82px; padding: 10px">
+			<input type="date" name="datavolta" min="2019-06-14" style="padding: 10px">
+			<form action="https://muradzera.github.io/sitedeviagens2/" method="get" style="display: inline-block;">
+				<input type="submit" class="btn btn-yellow" value="Procurar">
+			</form>
+			<br>
+			<input type="checkbox" name="dataindef" style="height: 15px; width: 15px; margin-left: 572px">
+			<label style="display: inline-block; font-size: 15px; margin-bottom: 5px; letter-spacing: -0.5px">Ainda não defini as datas</label>
+	</th>
+	</tr>
+	</table>
+	<br>
+	<br>
+	<br>
+	<br>
+	<table border="none" style="text-align:left; margin: auto; border-color: black; background-color: #C8C800">
+	<tr>
+	<th>
+		<label style="font-size: 18px; margin: 5px">Encontre o destino ideal para suas viagens com o melhor preço.</label>
+		<br>
+		<label style="font-size: 18px; margin: 5px; margin-left: 45px">Serão experiências únicas que você nunca irá esquecer!</label>
+	</th>
+	</tr>
+	</table>
+</body>
+</html>
